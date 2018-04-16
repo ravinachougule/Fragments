@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.fragments.ButtonFrag"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnMouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mouse"/>
+
+    <Button
+        android:id="@+id/btnScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen"/>
+
+    <Button
+        android:id="@+id/btnKeyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keyboard"/>
+
+
+</LinearLayout>
